@@ -24,7 +24,6 @@ int main(){
     namedWindow("Mask", WINDOW_AUTOSIZE);
     namedWindow("HSV Adjustments", WINDOW_AUTOSIZE);
     
-    // Buat image putih kecil untuk window trackbar
     Mat whiteBg = Mat(1, 400, CV_8UC3, Scalar(255, 255, 255));
     imshow("HSV Adjustments", whiteBg);
     
