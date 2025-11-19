@@ -1,0 +1,77 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/mitschess/Downloads/test_ws/test/src/yolo', '--log-base', '/dev/null']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mitschess/Downloads/test_ws/test/src/yolo', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72f5fe075120>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x72f5fe1e5e10>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x72f5fe1e5e10>>)
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mitschess/Downloads/test_ws/test/src/yolo', '/home/mitschess/Downloads/test_ws/test/src/yolo/--log-base', '/dev/null'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/build) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/build) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/build) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/log) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/log) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/resources/openvino) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mitschess/Downloads/test_ws/test/src/yolo/src) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
