@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+
+  <library_geometries>
+    <geometry id="FrustumMesh" name="FrustumMesh">
+      <mesh>
+        <source id="FrustumMesh-positions">
+          <float_array id="FrustumMesh-positions-array" count="24">
+            0 0 0   
+            1 0.5 0.5  
+            1 -0.5 0.5  
+            1 -0.5 -0.5  
+            1 0.5 -0.5  
+            0 0 0
+            1 0.5 -0.5
+            1 0.5 0.5
+            0 0 0
+            1 -0.5 0.5
+            1 -0.5 -0.5
+          </float_array>
+          <technique_common>
+            <accessor source="#FrustumMesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+
+        <vertices id="FrustumMesh-vertices">
+          <input semantic="POSITION" source="#FrustumMesh-positions"/>
+        </vertices>
+
+        <polylist count="4">
+          <input semantic="VERTEX" source="#FrustumMesh-vertices" offset="0"/>
+          <vcount>3 3 3 3</vcount>
+          <p>
+            0 1 2
+            0 2 3
+            0 3 4
+            0 4 1
+          </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="FrustumNode">
+        <instance_geometry url="#FrustumMesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
