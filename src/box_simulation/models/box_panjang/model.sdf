@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="box_panjang">
+    <static>false</static>
+
+    <link name="base_link">
+      <pose>0 0 0.5 0 0 0</pose>
+
+      <collision name="collision">
+        <geometry>
+          <box><size>1 1 1</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>1 1 1</size></box>
+        </geometry>
+        <material>
+          <ambient>0.2 0.5 0.8 1</ambient>
+          <diffuse>0.2 0.5 0.8 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <!-- plugin -->
+    <plugin name="box_control_plugin" filename="libbox_control_plugin.so">
+      <ros>
+        <namespace>/</namespace>
+        <remapping>cmd_vel:=/cmd_vel</remapping>
+      </ros>
+      <update_rate>50.0</update_rate>
+    </plugin>
+
+  </model>
+</sdf>

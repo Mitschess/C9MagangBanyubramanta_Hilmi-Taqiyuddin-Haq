@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="camera_frustum">
+    <static>true</static>
+
+    <link name="frustum_link">
+      <visual name="frustum_visual">
+        <geometry>
+          <mesh>
+            <uri>model://camera_frustum/meshes/frustum.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+
+        <material>
+          <ambient>1 0.6 0 1</ambient>
+          <diffuse>1 0.6 0 1</diffuse>
+          <transparency>0.4</transparency>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>
